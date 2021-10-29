@@ -1,0 +1,41 @@
+body {}
+
+.container {
+    margin: 0 auto;
+}
+
+.table {
+    margin: 0 auto;
+    margin-top: 5px;
+    padding: 5px 250px;
+}
+
+#create {
+    margin-top: 5px;
+    padding: 4px 500px;
+}
+
+#irow {
+    margin-top: 5px;
+    padding: 5px 232px;
+}
+
+#icolumn {
+    margin-top: 5px;
+    padding: 5px 235px;
+}
+
+#drow {
+    margin-top: 5px;
+    padding: 5px 229px;
+}
+
+#dcolumn {
+    margin-top: 5px;
+    padding: 5px 232px;
+}
+
+#delete {
+    margin-top: 5px;
+    padding: 4px 523px;
+}

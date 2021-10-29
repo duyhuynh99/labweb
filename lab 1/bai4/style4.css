@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+body {
+    width: 800px;
+    margin: 0 auto;
+    font-size: 18px;
+}
+
+
+/***Header***/
+
+.header {
+    height: 50px;
+    background-color: #929292;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+
+/***Menu***/
+
+.menu {
+    background-color: #0433ff;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 50px;
+}
+
+.menu ul {
+    list-style: none;
+}
+
+.menu ul li {
+    float: left;
+    padding-left: 20px;
+}
+
+.menu ul li a {
+    color: white;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/***Column***/
+
+.column {
+    height: 628px;
+    float: left;
+    overflow: hidden;
+}
+
+.left {
+    width: 250px;
+}
+
+.left .top {
+    height: 150px;
+    background: #fffb00;
+}
+
+.left .bottom {
+    height: 150px;
+    background: #929292;
+}
+
+.left ul {
+    padding-left: 40px;
+}
+
+.right {
+    width: 550px;
+}
+
+.right_1 {
+    height: 500px;
+}
+
+p {
+    padding: 20px 10px;
+}
+
+.right_21 {
+    width: 50%;
+    height: 128px;
+    overflow: hidden;
+    background: #008f00;
+    float: left;
+}
+
+.right_22 {
+    width: 50%;
+    height: 128px;
+    overflow: hidden;
+    background: #ff2600;
+    float: left;
+}
+
+
+/***Footer***/
+
+.footer {
+    text-align: center;
+    background-color: #0433ff;
+    height: 50px;
+    padding: 10px 20px;
+}

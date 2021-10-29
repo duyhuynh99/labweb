@@ -1,0 +1,140 @@
+	body {}
+	
+	img {
+	    width: 80%;
+	    height: 55%;
+	}
+	
+	#SiteTitle {
+	    margin: 0px;
+	    padding: 0px;
+	    border-style: solid;
+	    border-width: 1px;
+	    height: 60px;
+	}
+	
+	#ST_name {
+	    font-size: 30px;
+	    width: 20%;
+	    float: left;
+	    padding: 5px;
+	}
+	
+	#ST_link {
+	    width: 40%;
+	    float: left;
+	    margin: 30px;
+	}
+	
+	#ST_search {
+	    width: 18%;
+	    margin-top: 20px;
+	    margin-right: 5%;
+	    height: 30px;
+	    padding: 5px;
+	    border-style: solid;
+	    border-width: 2px;
+	    float: right;
+	    border-radius: 10px;
+	}
+	
+	.clear {
+	    clear: both;
+	}
+	
+	#Left {
+	    float: left;
+	    width: 20%;
+	    margin-top: -15px;
+	    padding: 0px;
+	}
+	
+	.Left_list {
+	    border-style: solid;
+	    border-width: 1px;
+	    height: 200px;
+	}
+	
+	.Left_name {
+	    border-style: solid;
+	    border-width: 1px;
+	    height: 40px;
+	    margin-top: 0px;
+	    padding-top: 1%;
+	    padding-left: 25%;
+	    font-size: 20px;
+	    font-weight: bold;
+	    background-color: DarkGrey;
+	}
+	
+	.Left_item {
+	    padding-left: 5%;
+	    height: 30px;
+	    margin-top: -20px;
+	    font-size: 17px;
+	    background-color: White;
+	}
+	
+	#Mid {
+	    border-style: solid;
+	    border-width: 1px;
+	    width: 60%;
+	    margin-top: -15px;
+	    float: left;
+	    height: 750px;
+	}
+	
+	#Mid_name {
+	    font-size: 30px;
+	    padding-left: 10px;
+	    float: left;
+	}
+	
+	.Mid_img {
+	    width: 30%;
+	    height: 40%;
+	    margin-top: 15px;
+	    margin-left: 20px;
+	    padding-top: 5%;
+	    padding-left: 5%;
+	    border-style: solid;
+	    border-width: 1px;
+	    float: left;
+	}
+	
+	.Mid_price {
+	    text-align: center;
+	}
+	
+	.Mid_button_buy {
+	    display: flex;
+	    justify-content: center;
+	    align-items: center;
+	}
+	
+	#Mid_list {
+	    font-size: 80%;
+	    width: 30%;
+	    margin-top: 2%;
+	    float: right;
+	    margin-right: 0%;
+	}
+	
+	#Right {
+	    height: 600px;
+	    width: 20%;
+	    text-align: center;
+	    vertical-align: middle;
+	    margin-top: -15px;
+	    border-style: solid;
+	    border-width: 2px;
+	    float: right;
+	}
+	
+	#Footer {
+	    height: 80px;
+	    text-align: center;
+	    vertical-align: middle;
+	    border-style: solid;
+	    border-width: 2px;
+	}

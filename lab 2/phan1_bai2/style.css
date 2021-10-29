@@ -1,0 +1,265 @@
+	body {}
+	
+	#SiteTitle {
+	    margin: 0px;
+	    padding: 0px;
+	    border-style: solid;
+	    border-width: 1px;
+	    height: 60px;
+	}
+	
+	#ST_name {
+	    font-size: 30px;
+	    width: 20%;
+	    float: left;
+	    padding: 5px;
+	}
+	
+	#ST_link {
+	    width: 40%;
+	    float: left;
+	    margin: 30px;
+	}
+	
+	#ST_search {
+	    width: 18%;
+	    margin-top: 10px;
+	    margin-right: 5%;
+	    height: 30px;
+	    padding: 5px;
+	    float: right;
+	}
+	
+	.clear {
+	    clear: both;
+	}
+	
+	#Left {
+	    float: left;
+	    width: 20%;
+	    margin-top: -15px;
+	    padding: 0px;
+	}
+	
+	.Left_list {
+	    border-style: solid;
+	    border-width: 1px;
+	    height: 200px;
+	}
+	
+	.Left_name {
+	    border-style: solid;
+	    border-width: 1px;
+	    height: 40px;
+	    margin-top: 0px;
+	    padding-top: 1%;
+	    padding-left: 25%;
+	    font-size: 20px;
+	    font-weight: bold;
+	    background-color: DarkGrey;
+	}
+	
+	.Left_item {
+	    padding-left: 5%;
+	    height: 30px;
+	    margin-top: -20px;
+	    font-size: 17px;
+	    background-color: White;
+	}
+	
+	#Mid {
+	    border-style: solid;
+	    border-width: 1px;
+	    width: 60%;
+	    margin-top: -15px;
+	    float: left;
+	    height: 750px;
+	    padding-left: 3%;
+	}
+	
+	#Mid_name {
+	    font-size: 20px;
+	    float: left;
+	}
+	
+	#Mid_img {
+	    float: left;
+	    width: 30%;
+	}
+	
+	.Mid_img1 {
+	    width: 100%;
+	    margin-top: 5px;
+	    padding-top: 5%;
+	    float: left;
+	}
+	
+	.Mid_img2 {
+	    width: 23%;
+	    margin-top: 1%;
+	    margin-left: 1%;
+	    padding-top: 1%;
+	    float: left;
+	}
+	
+	#Mid_s {
+	    float: right;
+	    width: 45%;
+	    margin-left: 5%;
+	}
+	
+	h3 {
+	    font-weight: bold;
+	}
+	
+	#buy {
+	    text-align: center;
+	    height: 20px;
+	    width: 40%;
+	    margin-left: 25%;
+	    padding-top: 3%;
+	}
+	
+	#Mid_list {
+	    font-size: 80%;
+	    width: 30%;
+	    margin-top: 1%;
+	    float: right;
+	    margin-right: 5%;
+	}
+	
+	#Right {
+	    height: 600px;
+	    width: 20%;
+	    text-align: center;
+	    vertical-align: middle;
+	    margin-top: -15px;
+	    border-style: solid;
+	    border-width: 2px;
+	    float: right;
+	}
+	
+	#Footer {
+	    height: 80px;
+	    text-align: center;
+	    vertical-align: middle;
+	    border-style: solid;
+	    border-width: 2px;
+	}
+	
+	@media only screen and (max-width: 700px) {
+	    #ST_name {
+	        font-size: 20px;
+	        width: 20%;
+	        float: left;
+	        padding: 5px;
+	    }
+	    #ST_link {
+	        width: 40%;
+	        float: left;
+	        margin: 10px;
+	        font-size: 11px;
+	    }
+	    #ST_search {
+	        width: 18%;
+	        margin-top: 3px;
+	        margin-right: 5%;
+	        height: 10px;
+	        padding: 4px;
+	        border-style: solid;
+	        border-width: 2px;
+	        float: right;
+	        border-radius: 10px;
+	        font-size: 11px;
+	    }
+	    .Left_name {
+	        border-style: solid;
+	        border-width: 1px;
+	        height: 30px;
+	        margin-top: 0px;
+	        padding-top: 5%;
+	        padding-left: 10%;
+	        font-size: 12px;
+	        font-weight: bold;
+	        background-color: DarkGrey;
+	    }
+	    .Left_item {
+	        padding-left: 5%;
+	        height: 30px;
+	        margin-top: -20px;
+	        font-size: 10px;
+	        background-color: White;
+	    }
+	    #Left {
+	        float: left;
+	        width: 20%;
+	        margin-top: 0px;
+	        padding: 0px;
+	    }
+	    #Mid {
+	        border-style: solid;
+	        border-width: 1px;
+	        width: 57%;
+	        margin-top: 0px;
+	        float: left;
+	        height: 650px;
+	        padding-left: 3%;
+	        font-size: 10px;
+	    }
+	    #Mid_name {
+	        font-size: 15px;
+	        float: left;
+	    }
+	    #Mid_img {
+	        float: left;
+	        width: 45%;
+	    }
+	    .Mid_img1 {
+	        width: 100%;
+	        margin-top: 5px;
+	        padding-top: 5%;
+	        float: left;
+	    }
+	    .Mid_img2 {
+	        width: 48%;
+	        margin-top: 1%;
+	        margin-left: 1%;
+	        padding-top: 1%;
+	        float: left;
+	    }
+	    #Mid_s {
+	        float: right;
+	        width: 45%;
+	        margin-left: 5%;
+	    }
+	    h3 {
+	        font-weight: bold;
+	    }
+	    #buy {
+	        text-align: center;
+	        height: 20px;
+	        width: 40%;
+	        margin-left: 25%;
+	        padding-top: 3%;
+	        border-style: solid;
+	        border-width: 2px;
+	        border-radius: 10px;
+	    }
+	    #Mid_list {
+	        font-size: 80%;
+	        width: 30%;
+	        margin-top: 1%;
+	        float: right;
+	        margin-right: 5%;
+	    }
+	    #Right {
+	        height: 600px;
+	        width: 18%;
+	        text-align: center;
+	        vertical-align: middle;
+	        margin-top: 0px;
+	        border-style: solid;
+	        border-width: 2px;
+	        float: right;
+	    }
+	}
