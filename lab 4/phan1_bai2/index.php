@@ -119,11 +119,6 @@
       <div class="left">
         <form onsubmit="setCookie()">
           <h2>Add Cookie: </h2>
-          <!-- Name of cookie:<br> <input type="text" id="tencookie"><br>
-          Value:<br> <input type="text" id="value"><br>
-          Timelife (default 365 days):<br> <input type="text" id="day">
-          <br><br> -->
-
 
           <div class="mb-3">
             <label for="cookiesname" class="form-label">Name of cookie:</label>
@@ -131,7 +126,7 @@
           </div>
           <div class="mb-3">
             <label for="Value" class="form-label">Value:</label>
-            <input type="password" class="form-control" id="value">
+            <input type="name" class="form-control" id="value">
           </div>
 
           <div class="mb-3">
